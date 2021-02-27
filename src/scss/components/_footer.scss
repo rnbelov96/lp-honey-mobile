@@ -1,0 +1,64 @@
+.footer {
+  min-height: 135px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  background-color: $white;
+}
+
+.footer__wrapper {
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__company {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer__policy {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 20px;
+
+  background-color: transparent;
+  border: none;
+
+  font-size: 14px;
+  text-align: center;
+  color: #bb8751;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer__contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer__phone {
+  margin-bottom: 8px;
+  color: $black;
+  text-align: center;
+
+  &:hover {
+    color: $black;
+    text-decoration: none;
+  }
+
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.footer__phone-call {
+  text-decoration: underline;
+  color: #bb8751;
+  text-align: center;
+
+  background-color: transparent;
+  border: none;
+}
