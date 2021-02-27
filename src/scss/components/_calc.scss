@@ -197,14 +197,6 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-
-  &_retail .calc__label-item {
-    width: 21.5px;
-  }
-
-  &_opt .calc__label-item {
-    width: 35px;
-  }
 }
 
 .calc__label-item {
@@ -212,7 +204,7 @@
   text-align: center;
   color: $white;
 
-  width: 21.5px;
+  width: 36px;
 }
 
 .calc__check-box {
@@ -244,7 +236,6 @@
 }
 
 .calc__profit {
-  margin-top: 50px;
   font-size: 24px;
   font-weight: 900;
   color: #d59342;
