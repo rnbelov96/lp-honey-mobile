@@ -61,10 +61,17 @@
 
 .formats__item-text {
   margin-top: 35px;
+  min-height: 65px;
+  display: block;
 }
 
 .formats__stat-number {
   font-size: 26px;
+
+  &_text {
+    line-height: 30px;
+    font-size: 18px;
+  }
 }
 
 .formats__income {
@@ -175,7 +182,8 @@
   }
 
   @media (max-width: 575px) {
-    width: 78%;
+    width: 100%;
+    max-width: 220px;
   }
 }
 
